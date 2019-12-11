@@ -1,0 +1,89 @@
+/* General setup */
+
+* {
+  box-sizing: border-box;
+  line-height: 20px
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  font-size: 10px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+  
+}
+
+p {
+ text-indent: 20px;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+  border-bottom: 1px solid;
+}
+
+a:link {
+  color: #265301; 
+}
+
+a:visted {
+  color: #437A16;
+}
+
+a:hover {
+  background: #CDFEAA;
+  border-bottom: none;
+}
+
+a:active {
+  background: #265301;
+  color: #CDFEAA;
+}
+
+a[href*="http"] {
+  background: url('https://mdn.mozillademos.org/files/12982/external-link-52.png') no-repeat 100% 0;
+  background-size: 16px 16px;
+  padding-right: 19px;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+  
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 2px
+}
+
+/* WRITE YOUR CODE BELOW HERE */
